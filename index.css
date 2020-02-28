@@ -15,7 +15,7 @@ img{
 
 body {
 background-color: #E3E4E6;
-background-image: url(https://images.unsplash.com/photo-1536111912543-144a22642371?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+background-image: url(https://media1.giphy.com/media/l3vRbTrGdpZrjjco8/giphy.webp?cid=790b761162a0b1074039907cc65e62d2dcae4300d06387fe&rid=giphy.webp);
 background-size: cover;
 }
 
@@ -40,14 +40,16 @@ h1{
 
   }
 [class^="column"]{
-
+column-count: 3;
 }
 
 li{
     color: crimson;
     text-decoration: crimson;
 }
-
+li:hover{
+    color: cyan;
+}
 
 
 
