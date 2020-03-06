@@ -50,7 +50,11 @@ li{
 li:hover{
     color: cyan;
 }
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 
 
